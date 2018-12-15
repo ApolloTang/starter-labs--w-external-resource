@@ -31,7 +31,7 @@ module.exports = {
     },
     "server": false,
     "proxy": false,
-    "port": 3332,
+    "port": 3333,
     "middleware": false,
     "serveStatic": [],
     "ghostMode": {
