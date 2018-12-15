@@ -1,11 +1,14 @@
 #!/bin/bash
-# browser-sync start --server 'src' --files 'src' -c 'bs-config.js' --directory &
-
-filesToWatch='/Users/apollotang/0/g-labs/src-3040/'
-servedDir='/Users/apollotang/0/g-labs/src-3040/'
 
 # filesToWatch='src'
 # servedDir='src'
+
+f="/Users/apollotang/Desktop/lab"
+
+filesToWatch="$f"
+servedDir="$f"
+echo watching $f
+
 
 browser-sync start --server "${servedDir}" --files "${filesToWatch}" -c 'bs-config.js' --directory &
 wait;
